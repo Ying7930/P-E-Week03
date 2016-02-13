@@ -1,6 +1,7 @@
 void setup(){
   size(500, 515);
   background(255);
+  noStroke();
 }
 void draw(){
   int x=0;
