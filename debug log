@@ -1,0 +1,14 @@
+
+Sketch#5.pde
+- cross grid showing success.
+- an ellipse movie with mouse success.
+- the colour in the ellipse will cover the cross, and can’t get rid of the stroke of ellipse.
+- add
+	colorMode(RGB, 255, 255, 255, 100); //for the background.
+and
+	stroke(0)  //for the crosses.
+to cross grid, and
+	no stroke() //to get rid the stroke
+and
+	fill(255, 255, 255, 90) // to fill the ellpie with a transparente color
+to the ellipse.
